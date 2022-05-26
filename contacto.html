@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ASSETS/IMAGES/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="padre">
+    <header class="contenedorPadreHeader header">
+        <div>
+        <h1>real MADRID fans</h1>
+        </div>
+        <div>
+            <nav class="menu">
+              <ul class="contenedorHijoHeader">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./equipo.html">Equipo</a></li>
+                <li><a href="./historia.html">Historia</a></li>
+                <li><a href="./titulos.html">Títulos</a></li>
+                <li><a href="./tienda.html">Tienda</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>  
+    <main class="contenedorPadreMainContacto main">
+          <form>
+              <fieldset>
+                  <legend><strong>DATOS PERSONALES</strong></legend>
+                  <div>
+                    <label for="gender">Género</label>
+                     <br>
+                     <input type="radio" name="gender" value="Masculino">Masculino
+                    <br>
+                    <input type="radio" name="gender" value="Femenino">Femenino
+                    <br>
+                    <input type="radio" name="gender" value="Indefinido">Indefinido
+                  </div>
+                  <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Juan" class="comentarios">
+                </div>
+                <div>
+                  <label for="apellido">Apellido</label>
+                  <input type="text" name="apellido" placeholder="Perez" class="comentarios">
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" placeholder="juanperez@gmail.com" required class="comentarios">
+                </div>
+                <div>
+                  <label for="password">Contraseña</label>
+                  <input type="password" name="password" placeholder="••••••" class="comentarios">
+                </div>
+                <div>
+                  <label for="comentarios">Dejar un Mensaje</label><br>
+                  <textarea name="comentarios" id="message" cols="50" rows="15" class="comentarios"></textarea>
+                </div>
+                <div>
+                  <button>Enviar Formulario</button>
+                  <input type="reset">
+                </div>  
+            </fieldset>
+          </form>
+  </main>
+  <Footer class="contenedorPadreFooter footer">
+    <nav class= "menu">
+        <ul class="contenedorHijoFooter">
+           <li><a href="https://www.facebook.com/RealMadrid/" target="_blank">Facebook</a></li>
+           <li><a href="https://www.instagram.com/realmadrid/" target="_blank">Instagram</a></li>
+           <li><a href="https://twitter.com/realmadrid" target="_blank">Twitter</a></li>
+           <li><a href="https://www.youtube.com/realmadrid" target="_blank">YouTube</a></li>
+        </ul>
+       </nav>
+  </Footer>
+  </div>
+</body>
+</html>
