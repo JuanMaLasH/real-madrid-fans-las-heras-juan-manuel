@@ -199,6 +199,15 @@ fieldset{
     "jugador22 jugador23 jugador24"
     "jugador25 jugador25 jugador25";
 }
+.foto1{
+    transition: all 1s ease-in-out;
+}
+.foto1:hover{
+    transform: translate(10px, 5px);
+}
+.foto2:hover{
+    transform: scale(1.1, 1.1);
+}
 @media screen and (max-width: 576px) {
     .contenedorPadreMain{
         grid-template-columns: auto;
