@@ -37,8 +37,7 @@ p{
 .menu{
         display: flex;
         flex-direction:row;
-        margin: 0,7rem;
-        padding: 0,7rem;
+        padding: 1.5rem;
         font-size: 20px;
 }
 .menu li{
@@ -63,6 +62,8 @@ p{
 .menuFooter{
     display: flex;
     justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
 }      
 .menuFooter li{
     list-style-type: none;   
@@ -213,6 +214,9 @@ fieldset{
 .foto2:hover{
     transform: scale(1.1, 1.1);
 }
+.logoPrincipal{
+    width: 100%;
+}
 @media screen and (max-width: 576px) {
     .contenedorPadreMain{
         grid-template-columns: auto;
@@ -356,9 +360,6 @@ fieldset{
         "titulo11 titulo12"
         "titulo13 titulo13";
     }    
-    .menu{
-        justify-content: center;
-    } 
     .contenedorPadreMainTienda{
         grid-template-rows: repeat(12, auto);
         grid-template-columns: repeat(1, auto);
