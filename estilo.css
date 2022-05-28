@@ -11,7 +11,7 @@ body{
     background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-.header, .main{
+.main{
     background: #f5f6f6; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
@@ -40,12 +40,6 @@ p{
         margin: 0,7rem;
         padding: 0,7rem;
         font-size: 20px;
-        border: 3px black solid;
-        background: #3f4c6b; /* Old browsers */
-        background: -moz-linear-gradient(-45deg, #3f4c6b 0%, #3f4c6b 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(-45deg, #3f4c6b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg, #3f4c6b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .menu li{
         margin: 15px;
@@ -54,7 +48,7 @@ p{
 }
 .menu li a{
         text-decoration:none;
-        color: rgb(240, 240, 240);
+        color: black;
         margin: 5px;
         padding: 5px;
 }
@@ -65,7 +59,18 @@ p{
 .menu li a:hover{
         color: rgb(10, 10, 10);
         margin: 5px;
-}            
+}
+.menuFooter{
+    display: flex;
+    justify-content: center;
+}      
+.menuFooter li{
+    list-style-type: none;   
+}
+.logo{
+    border-radius: 50%;
+    width: 100%;
+}   
 .padre{
     background-color: white;
 } 
@@ -298,9 +303,6 @@ fieldset{
     .contenedorHijoHeader{
         flex-direction: column;
     }
-    .contenedorHijoFooter{
-        flex-direction: column;
-    }
     .menu{
         justify-content: center;
     }
@@ -354,12 +356,6 @@ fieldset{
         "titulo11 titulo12"
         "titulo13 titulo13";
     }    
-    .contenedorHijoHeader{
-        flex-direction: column;
-    }
-    .contenedorHijoFooter{
-        flex-direction: column;
-    }
     .menu{
         justify-content: center;
     } 
