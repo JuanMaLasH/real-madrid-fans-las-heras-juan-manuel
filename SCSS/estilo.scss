@@ -1,0 +1,32 @@
+$letraPrincipal:'Alfa Slab One', cursive;
+$letraSecundaria:'Merriweather', serif;
+$blanco: white;
+$negro: black;
+$gris: rgb(187, 185, 185);
+@import "header";
+@import "main";
+@import "footer";
+@import "animaciones";
+@import "mediaScreen";
+
+body{
+    text-align: center;
+    background: #f5f6f6; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    h1{
+    font-family: $letraPrincipal;
+    text-align: center;
+    }
+    h2 h3 h4 p{
+    font-family: $letraSecundaria;
+    }    
+    p{ 
+    line-height: 1.5;
+    } 
+    .padre{
+        background-color: $blanco;
+    }
+} 

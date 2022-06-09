@@ -1,0 +1,25 @@
+footer{
+    .contenedorPadreFooter{
+        width: 90%;
+        margin: auto;
+    }
+    .contenedorHijoFooter{
+        display: flex;
+    }
+    .menuFooter{
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        padding: 1rem;
+        nav{
+            padding:0,7rem;
+        }
+    }      
+    .menuFooter li{
+        list-style-type: none;   
+    }
+    .logo{
+        border-radius: 50%;
+        width: 100%;
+    }   
+}

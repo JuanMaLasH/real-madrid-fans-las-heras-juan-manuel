@@ -1,0 +1,236 @@
+header .menu {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  font-size: 20px; }
+  header .menu a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px; }
+  header .menu li {
+    margin: 15px;
+    padding: 15px;
+    list-style-type: none; }
+  header .menu li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px; }
+  header .menu li:hover {
+    background-color: #bbb9b9;
+    border-radius: 10%; }
+  header .menu li a:hover {
+    color: black;
+    margin: 5px; }
+  header .menu .contenedorPadreHeader {
+    width: 90%;
+    margin: auto; }
+  header .menu .contenedorHijoHeader {
+    display: flex; }
+  header .menu .logoPrincipal {
+    width: 100%; }
+  header .menu nav {
+    padding: 0,7rem; }
+
+.main {
+  background: #f5f6f6;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .main .contenedorPadreMain {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "titulo titulo" "noticia1 video" "noticia1 calendario" "noticia2 noticia2" "noticia3 noticia4";
+    gap: 10px; }
+  .main .contenedorHijoMain {
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify; }
+  .main .titulo {
+    grid-area: titulo;
+    text-align: center; }
+  .main .noticia1 {
+    padding: 40px;
+    grid-area: noticia1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .main .video {
+    grid-area: video;
+    padding: 40px; }
+  .main .calendario {
+    grid-area: calendario;
+    padding: 40px; }
+  .main .noticia2 {
+    padding: 40px;
+    grid-area: noticia2; }
+  .main .noticia3 {
+    padding: 40px;
+    grid-area: noticia3; }
+  .main .noticia4 {
+    padding: 40px;
+    grid-area: noticia4; }
+  .main .contenedorPadreMainHistoria {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: justify; }
+  .main .contenedorPadreMainContacto {
+    width: 90%;
+    margin: 20px auto; }
+    .main .contenedorPadreMainContacto fieldset {
+      font-family: 'Merriweather', serif;
+      font-size: 20px;
+      margin: 5px;
+      padding: 5px;
+      line-height: 1.5; }
+  .main .contenedorPadreMainTienda {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "camiseta1 pantalon1" "medias1 camiseta2" "pantalon2 medias2" "camiseta3 pantalon3" "medias3 camiseta4" "pantalon4 medias4";
+    gap: 40px; }
+  .main .contenedorPadreMainTitulos {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: "titulo1 titulo2 titulo3" "titulo4 titulo5 titulo6" "titulo7 titulo8 titulo9" "titulo10 titulo11 titulo12" "titulo13 titulo13 titulo13";
+    gap: 40px; }
+  .main .contenedorPadreMainEquipo {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: repeat(9, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: "jugador1 jugador2 jugador3" "jugador4 jugador5 jugador6" "jugador7 jugador8 jugador9" "jugador10 jugador11 jugador12" "jugador13 jugador14 jugador15" "jugador16 jugador17 jugador18" "jugador19 jugador20 jugador21" "jugador22 jugador23 jugador24" "jugador25 jugador25 jugador25"; }
+
+.main2 {
+  background-color: white; }
+
+footer .contenedorPadreFooter {
+  width: 90%;
+  margin: auto; }
+
+footer .contenedorHijoFooter {
+  display: flex; }
+
+footer .menuFooter {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem; }
+  footer .menuFooter nav {
+    padding: 0,7rem; }
+
+footer .menuFooter li {
+  list-style-type: none; }
+
+footer .logo {
+  border-radius: 50%;
+  width: 100%; }
+
+.foto1 {
+  transition: all 1s ease-in-out; }
+
+.foto1:hover {
+  transform: translate(10px, 5px); }
+
+.foto2:hover {
+  transform: scale(1.03, 1); }
+
+@media screen and (max-width: 576px) {
+  .contenedorPadreMain {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "titulo" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; }
+  .foto {
+    width: 90%; }
+  .foto1 {
+    width: 40%; }
+  .foto2 {
+    width: 60%; }
+  .contenedorPadreMainEquipo {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(25, auto);
+    grid-template-areas: "jugador1" "jugador2" "jugador3" "jugador4" "jugador5" "jugador6" "jugador7" "jugador8" "jugador9" "jugador10" "jugador11" "jugador12" "jugador13" "jugador14" "jugador15" "jugador16" "jugador17" "jugador18" "jugador19" "jugador20" "jugador21" "jugador22" "jugador23" "jugador24" "jugador25"; }
+  .contenedorPadreMainTitulos {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(13, auto);
+    grid-template-areas: "titulo1" "titulo2" "titulo3" "titulo4" "titulo5" "titulo6" "titulo7" "titulo8" "titulo9" "titulo10" "titulo11" "titulo12" "titulo13"; }
+  .contenedorPadreMainTienda {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(12, auto);
+    grid-template-areas: "camiseta1" "pantalon1" "medias1" "camiseta2" "pantalon2" "medias2" "camiseta3" "pantalon3" "medias3" "camiseta4" "pantalon4" "medias4"; }
+  .contenedorHijoHeader {
+    flex-direction: column; }
+  .menu {
+    justify-content: center; }
+  .comentarios {
+    width: 100%; } }
+
+@media screen and (min-width: 576px) and (max-width: 1150px) {
+  .contenedorPadreMain {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "titulo" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; }
+  .contenedorPadreMainEquipo {
+    grid-template-rows: repeat(13, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "jugador1 jugador2" "jugador3 jugador4" "jugador5 jugador6" "jugador7 jugador8" "jugador9 jugador10" "jugador11 jugador12" "jugador13 jugador14" "jugador15 jugador16" "jugador17 jugador18" "jugador19 jugador20" "jugador21 jugador22" "jugador23 jugador24" "jugador25 jugador25"; }
+  .foto {
+    width: 50%; }
+  .contenedorPadreMainTitulos {
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "titulo1 titulo2" "titulo3 titulo4" "titulo5 titulo6" "titulo7 titulo8" "titulo9 titulo10" "titulo11 titulo12" "titulo13 titulo13"; }
+  .contenedorPadreMainTienda {
+    grid-template-rows: repeat(12, auto);
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas: "camiseta1" "pantalon1" "medias1" "camiseta2" "pantalon2" "medias2" "camiseta3" "pantalon3" "medias3" "camiseta4" "pantalon4" "medias4"; } }
+
+@media screen and (max-width: 1550px) {
+  .contenedorPadreMain {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "titulo" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; } }
+
+body {
+  text-align: center;
+  background: #f5f6f6;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  body h1 {
+    font-family: "Alfa Slab One", cursive;
+    text-align: center; }
+  body h2 h3 h4 p {
+    font-family: "Merriweather", serif; }
+  body p {
+    line-height: 1.5; }
+  body .padre {
+    background-color: white; }
