@@ -14,26 +14,17 @@ header .menu {
     margin: 15px;
     padding: 15px;
     list-style-type: none; }
-  header .menu li a {
-    text-decoration: none;
-    color: black;
-    margin: 5px;
-    padding: 5px; }
-  header .menu li:hover {
-    background-color: #bbb9b9;
-    border-radius: 10%; }
-  header .menu li a:hover {
-    color: black;
-    margin: 5px; }
-  header .menu .contenedorPadreHeader {
-    width: 90%;
-    margin: auto; }
-  header .menu .contenedorHijoHeader {
-    display: flex; }
-  header .menu .logoPrincipal {
-    width: 100%; }
-  header .menu nav {
-    padding: 0,7rem; }
+    header .menu li a {
+      text-decoration: none;
+      color: black;
+      margin: 5px;
+      padding: 5px; }
+      header .menu li a:hover {
+        color: #0a0a0a;
+        margin: 5px; }
+    header .menu li:hover {
+      background-color: #f0f0f4;
+      border-radius: 10%; }
 
 .main {
   background: #f5f6f6;
@@ -138,11 +129,8 @@ footer .menuFooter {
   justify-content: center;
   margin: 1rem;
   padding: 1rem; }
-  footer .menuFooter nav {
-    padding: 0,7rem; }
-
-footer .menuFooter li {
-  list-style-type: none; }
+  footer .menuFooter li {
+    list-style-type: none; }
 
 footer .logo {
   border-radius: 50%;
@@ -150,9 +138,8 @@ footer .logo {
 
 .foto1 {
   transition: all 1s ease-in-out; }
-
-.foto1:hover {
-  transform: translate(10px, 5px); }
+  .foto1:hover {
+    transform: translate(10px, 5px); }
 
 .foto2:hover {
   transform: scale(1.03, 1); }
@@ -225,11 +212,12 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
-  body h1 {
-    font-family: "Alfa Slab One", cursive;
-    text-align: center; }
-  body h2 h3 h4 p {
-    font-family: "Merriweather", serif; }
+  body h1 font {
+    family: "Alfa Slab One", cursive; }
+  body h1 text {
+    align: center; }
+  body h2 h3 h4 p font {
+    family: "Merriweather", serif; }
   body p {
     line-height: 1.5; }
   body .padre {

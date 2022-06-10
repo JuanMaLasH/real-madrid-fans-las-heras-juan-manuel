@@ -17,11 +17,17 @@ body{
     background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     h1{
-    font-family: $letraPrincipal;
-    text-align: center;
+        font{
+        family: $letraPrincipal;
+        }
+        text{
+        align: center;
+        }
     }
     h2 h3 h4 p{
-    font-family: $letraSecundaria;
+        font{
+            family: $letraSecundaria;
+        }
     }    
     p{ 
     line-height: 1.5;

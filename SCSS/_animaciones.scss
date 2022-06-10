@@ -1,8 +1,8 @@
-.foto1{
-    transition: all 1s ease-in-out;
-}
-.foto1:hover{
-    transform: translate(10px, 5px);
+.foto1 {
+	transition: all 1s ease-in-out;
+	&:hover {
+		transform: translate(10px, 5px);
+	}
 }
 .foto2:hover{
     transform: scale(1.03, 1.00);

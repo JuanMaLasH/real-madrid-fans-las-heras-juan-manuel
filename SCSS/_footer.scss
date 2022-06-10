@@ -6,20 +6,17 @@ footer{
     .contenedorHijoFooter{
         display: flex;
     }
-    .menuFooter{
+    .menuFooter {
         display: flex;
         justify-content: center;
         margin: 1rem;
         padding: 1rem;
-        nav{
-            padding:0,7rem;
+        li {
+            list-style-type: none;
         }
-    }      
-    .menuFooter li{
-        list-style-type: none;   
     }
-    .logo{
+    .logo {
         border-radius: 50%;
         width: 100%;
-    }   
+    }
 }
