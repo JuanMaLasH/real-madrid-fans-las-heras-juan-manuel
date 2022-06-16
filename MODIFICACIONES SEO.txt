@@ -1,0 +1,22 @@
+Proyecto: Real Madrid Fans - Las Heras Juan Manuel
+
+Detalle de modificaciones SEO:
+
+INDEX:
+Agregué las siguientes keywords: "Real Madrid, Club de Futbol, Fans, Noticias" que hacen referencia a grandes rasgos de que se pueden encontrar en el sitio web.
+
+EQUIPO:
+Agregué las siguientes keywords: "Real Madrid, Club de Futbol, Primer Equipo, Suplentes, Centrocampistas, Arqueros, Defensores, Delanteros" que hacen referencia a como esta formado el equipo actualmente.
+A la vez, tambien agregué el encabezado "Jugadores Actuales".
+
+HISTORIA:
+Agregué las siguientes keywords: "Real Madrid, Club de Futbol, Historia, Fundacion, Escudo, Estadio, Estadísticas".
+Ademas, incorpore un encabezado que indica que invita a los usuarios a conocer la historia del club.
+
+TIENDA:
+Agregué las siguientes keywords: "Real Madrid, Club de Futbol, Camisetas, Pantalones, Medias, Primera Equipacion, Segunda Equipacion, Hombre, Mujer".
+Tambien agregue como encabezado un h1 que indica que el usuario se equipe con la equipacion actual del club.
+
+CONTACTO:
+Agregué las siguientes keywords: "Real Madrid, Club de Futbol, Fans, Contacto, Opiniones".
+A la vez, tambien agregué el encabezado "Ayudanos a mejorar" para invitar a los usuarios a dar sus opiniones.

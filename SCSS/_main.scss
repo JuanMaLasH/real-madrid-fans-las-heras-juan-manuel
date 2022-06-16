@@ -10,9 +10,10 @@
     padding: 20px;
     display:grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: 
     "titulo titulo"
+    "noticia0 noticia0"
     "noticia1 video"
     "noticia1 calendario"
     "noticia2 noticia2"
@@ -26,36 +27,45 @@
     align-items: center;
     text-align: justify;
     }
-    .titulo{
-    grid-area: titulo;
-    text-align: center;
-    }
-    .noticia1{
+    .seccion{
     padding: 40px;
-    grid-area: noticia1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    .video{
-    grid-area: video;
-    padding: 40px;
-    }
-    .calendario{
-    grid-area: calendario;
-    padding: 40px;
-    }
-    .noticia2{
-    padding: 40px;
-    grid-area: noticia2;
-    }
-    .noticia3{
-    padding: 40px;
-    grid-area: noticia3;
-    }
-    .noticia4{
-    padding: 40px;
-    grid-area: noticia4;
+    margin: 20px;
+        .seccion .titulo{
+        @extend .seccion;
+        grid-area: titulo;
+        text-align: center;
+        }
+        .seccion .noticia0{
+        @extend .seccion;
+        grid-area: noticia0;
+        }
+        .seccion .noticia1{
+        @extend .seccion;
+        grid-area: noticia1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .seccion .video{
+        @extend .seccion;
+        grid-area: video;
+        }
+        .seccion .calendario{
+        @extend .seccion;
+        grid-area: calendario;
+        }
+        .seccion .noticia2{
+        @extend .seccion;
+        grid-area: noticia2;
+        }
+        .seccion .noticia3{
+        @extend .seccion;
+        grid-area: noticia3;
+        }
+        .seccion .noticia4{
+        @extend .seccion;
+        grid-area: noticia4;
+        }
     }
     .contenedorPadreMainHistoria{
         width: 90%;

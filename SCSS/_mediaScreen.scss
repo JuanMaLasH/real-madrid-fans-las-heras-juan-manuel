@@ -1,9 +1,10 @@
 @media screen and (max-width: 576px) {
     .contenedorPadreMain{
         grid-template-columns: auto;
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         grid-template-areas: 
         "titulo"
+        "noticia0"
         "noticia1"
         "video"
         "calendario"
@@ -100,9 +101,10 @@
 @media screen and (min-width: 576px) and (max-width:1150px){
     .contenedorPadreMain{
         grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         grid-template-areas: 
         "titulo"
+        "noticia0"
         "noticia1"
         "video"
         "calendario"
@@ -166,9 +168,10 @@
 @media screen and (max-width: 1550px){
     .contenedorPadreMain{
         grid-template-columns: auto;
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         grid-template-areas: 
         "titulo"
+        "noticia0"
         "noticia1"
         "video"
         "calendario"
