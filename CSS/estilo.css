@@ -40,81 +40,156 @@ header .menu {
   .main .contenedorPadreMain {
     width: 90%;
     margin: 20px auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(6, auto);
-    grid-template-areas: "titulo titulo" "noticia0 noticia0" "noticia1 video" "noticia1 calendario" "noticia2 noticia2" "noticia3 noticia4";
-    gap: 10px; }
+    padding: 20px; }
   .main .contenedorHijoMain {
     justify-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify; }
-  .main .seccion, .main .seccion .seccion .titulo, .main .seccion .seccion .noticia0, .main .seccion .seccion .noticia1, .main .seccion .seccion .video, .main .seccion .seccion .calendario, .main .seccion .seccion .noticia2, .main .seccion .seccion .noticia3, .main .seccion .seccion .noticia4 {
-    padding: 40px;
-    margin: 20px; }
-    .main .seccion .seccion .titulo {
-      grid-area: titulo;
-      text-align: center; }
-    .main .seccion .seccion .noticia0 {
-      grid-area: noticia0; }
-    .main .seccion .seccion .noticia1 {
-      grid-area: noticia1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-    .main .seccion .seccion .video {
-      grid-area: video; }
-    .main .seccion .seccion .calendario {
-      grid-area: calendario; }
-    .main .seccion .seccion .noticia2 {
-      grid-area: noticia2; }
-    .main .seccion .seccion .noticia3 {
-      grid-area: noticia3; }
-    .main .seccion .seccion .noticia4 {
-      grid-area: noticia4; }
   .main .contenedorPadreMainHistoria {
     width: 90%;
     margin: 20px auto;
     padding: 30px;
     text-align: justify; }
-  .main .contenedorPadreMainContacto {
-    width: 90%;
-    margin: 20px auto; }
-    .main .contenedorPadreMainContacto fieldset {
-      font-family: 'Merriweather', serif;
-      font-size: 20px;
-      margin: 5px;
-      padding: 5px;
-      line-height: 1.5; }
   .main .contenedorPadreMainTienda {
     width: 90%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-rows: repeat(6, auto);
-    grid-template-columns: repeat(2, auto);
-    grid-template-areas: "camiseta1 pantalon1" "medias1 camiseta2" "pantalon2 medias2" "camiseta3 pantalon3" "medias3 camiseta4" "pantalon4 medias4";
+    margin: 20px;
     gap: 40px; }
-  .main .contenedorPadreMainTitulos {
-    width: 90%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-rows: repeat(5, auto);
-    grid-template-columns: repeat(3, auto);
-    grid-template-areas: "titulo1 titulo2 titulo3" "titulo4 titulo5 titulo6" "titulo7 titulo8 titulo9" "titulo10 titulo11 titulo12" "titulo13 titulo13 titulo13";
-    gap: 40px; }
-  .main .contenedorPadreMainEquipo {
-    width: 90%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-rows: repeat(9, auto);
-    grid-template-columns: repeat(3, auto);
-    grid-template-areas: "jugador1 jugador2 jugador3" "jugador4 jugador5 jugador6" "jugador7 jugador8 jugador9" "jugador10 jugador11 jugador12" "jugador13 jugador14 jugador15" "jugador16 jugador17 jugador18" "jugador19 jugador20 jugador21" "jugador22 jugador23 jugador24" "jugador25 jugador25 jugador25"; }
 
 .main2 {
   background-color: white; }
+
+.fotoHistoriaJugador {
+  width: 70%;
+  border: black 5px solid;
+  border-radius: 75%; }
+
+.fotoHistoria {
+  width: 100%;
+  border: black 5px solid; }
+
+.video {
+  width: 80%;
+  height: 50vh; }
+
+.fotoTienda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center; }
+
+.contenedorPadreMainEquipo {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas: "tituloEquipo tituloEquipo tituloEquipo" "jugador1 jugador2 jugador3" "jugador4 jugador5 jugador6" "jugador7 jugador8 jugador9" "jugador10 jugador11 jugador12" "jugador13 jugador14 jugador15" "jugador16 jugador17 jugador18" "jugador19 jugador20 jugador21" "jugador22 jugador23 jugador24" "jugador25 jugador25 jugador25"; }
+
+.tituloEquipo {
+  display: flex;
+  justify-content: center;
+  grid-area: tituloEquipo;
+  margin-bottom: 10px; }
+
+.contenedorHijoMainEquipo, .contenedorHijoMainEquipo .jugador1, .contenedorHijoMainEquipo .jugador2, .contenedorHijoMainEquipo .jugador3, .contenedorHijoMainEquipo .jugador4, .contenedorHijoMainEquipo .jugador5, .contenedorHijoMainEquipo .jugador6, .contenedorHijoMainEquipo .jugador7, .contenedorHijoMainEquipo .jugador8, .contenedorHijoMainEquipo .jugador9, .contenedorHijoMainEquipo .jugador10, .contenedorHijoMainEquipo .jugador11, .contenedorHijoMainEquipo .jugador12, .contenedorHijoMainEquipo .jugador13, .contenedorHijoMainEquipo .jugador14, .contenedorHijoMainEquipo .jugador15, .contenedorHijoMainEquipo .jugador16, .contenedorHijoMainEquipo .jugador17, .contenedorHijoMainEquipo .jugador18, .contenedorHijoMainEquipo .jugador19, .contenedorHijoMainEquipo .jugador20, .contenedorHijoMainEquipo .jugador21, .contenedorHijoMainEquipo .jugador22, .contenedorHijoMainEquipo .jugador23, .contenedorHijoMainEquipo .jugador24, .contenedorHijoMainEquipo .jugador25 {
+  margin: 10px;
+  padding: 10px; }
+  .contenedorHijoMainEquipo .jugador1 {
+    grid-area: jugador1; }
+  .contenedorHijoMainEquipo .jugador2 {
+    grid-area: jugador2; }
+  .contenedorHijoMainEquipo .jugador3 {
+    grid-area: jugador3; }
+  .contenedorHijoMainEquipo .jugador4 {
+    grid-area: jugador4; }
+  .contenedorHijoMainEquipo .jugador5 {
+    grid-area: jugador5; }
+  .contenedorHijoMainEquipo .jugador6 {
+    grid-area: jugador6; }
+  .contenedorHijoMainEquipo .jugador7 {
+    grid-area: jugador7; }
+  .contenedorHijoMainEquipo .jugador8 {
+    grid-area: jugador8; }
+  .contenedorHijoMainEquipo .jugador9 {
+    grid-area: jugador9; }
+  .contenedorHijoMainEquipo .jugador10 {
+    grid-area: jugador10; }
+  .contenedorHijoMainEquipo .jugador11 {
+    grid-area: jugador11; }
+  .contenedorHijoMainEquipo .jugador12 {
+    grid-area: jugador12; }
+  .contenedorHijoMainEquipo .jugador13 {
+    grid-area: jugador13; }
+  .contenedorHijoMainEquipo .jugador14 {
+    grid-area: jugador14; }
+  .contenedorHijoMainEquipo .jugador15 {
+    grid-area: jugador15; }
+  .contenedorHijoMainEquipo .jugador16 {
+    grid-area: jugador16; }
+  .contenedorHijoMainEquipo .jugador17 {
+    grid-area: jugador17; }
+  .contenedorHijoMainEquipo .jugador18 {
+    grid-area: jugador18; }
+  .contenedorHijoMainEquipo .jugador19 {
+    grid-area: jugador19; }
+  .contenedorHijoMainEquipo .jugador20 {
+    grid-area: jugador20; }
+  .contenedorHijoMainEquipo .jugador21 {
+    grid-area: jugador21; }
+  .contenedorHijoMainEquipo .jugador22 {
+    grid-area: jugador22; }
+  .contenedorHijoMainEquipo .jugador23 {
+    grid-area: jugador23; }
+  .contenedorHijoMainEquipo .jugador24 {
+    grid-area: jugador24; }
+  .contenedorHijoMainEquipo .jugador25 {
+    grid-area: jugador25; }
+
+.contenedorPadreMainTitulos {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas: "tituloTitulos tituloTitulos tituloTitulos" "titulo1 titulo2 titulo3" "titulo4 titulo5 titulo6" "titulo7 titulo8 titulo9" "titulo10 titulo11 titulo12" "titulo13 titulo13 titulo13"; }
+
+.tituloTitulos {
+  display: flex;
+  justify-content: center;
+  grid-area: tituloTitulos;
+  margin-bottom: 10px; }
+
+.contenedorHijoMainTitulos, .contenedorHijoMainTitulos .titulo1, .contenedorHijoMainTitulos .titulo2, .contenedorHijoMainTitulos .titulo3, .contenedorHijoMainTitulos .titulo4, .contenedorHijoMainTitulos .titulo5, .contenedorHijoMainTitulos .titulo6, .contenedorHijoMainTitulos .titulo7, .contenedorHijoMainTitulos .titulo8, .contenedorHijoMainTitulos .titulo9, .contenedorHijoMainTitulos .titulo10, .contenedorHijoMainTitulos .titulo11, .contenedorHijoMainTitulos .titulo12, .contenedorHijoMainTitulos .titulo13 {
+  margin: 20px;
+  padding: 20px; }
+  .contenedorHijoMainTitulos .titulo1 {
+    grid-area: titulo1; }
+  .contenedorHijoMainTitulos .titulo2 {
+    grid-area: titulo2; }
+  .contenedorHijoMainTitulos .titulo3 {
+    grid-area: titulo3; }
+  .contenedorHijoMainTitulos .titulo4 {
+    grid-area: titulo4; }
+  .contenedorHijoMainTitulos .titulo5 {
+    grid-area: titulo5; }
+  .contenedorHijoMainTitulos .titulo6 {
+    grid-area: titulo6; }
+  .contenedorHijoMainTitulos .titulo7 {
+    grid-area: titulo7; }
+  .contenedorHijoMainTitulos .titulo8 {
+    grid-area: titulo8; }
+  .contenedorHijoMainTitulos .titulo9 {
+    grid-area: titulo9; }
+  .contenedorHijoMainTitulos .titulo10 {
+    grid-area: titulo10; }
+  .contenedorHijoMainTitulos .titulo11 {
+    grid-area: titulo11; }
+  .contenedorHijoMainTitulos .titulo12 {
+    grid-area: titulo12; }
+  .contenedorHijoMainTitulos .titulo13 {
+    grid-area: titulo13; }
 
 footer .contenedorPadreFooter {
   width: 90%;
@@ -140,32 +215,27 @@ footer .logo {
   .foto1:hover {
     transform: translate(10px, 5px); }
 
-.foto2:hover {
+.fotoTienda:hover {
   transform: scale(1.03, 1); }
 
 @media screen and (max-width: 576px) {
-  .contenedorPadreMain {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(8, auto);
-    grid-template-areas: "titulo" "noticia0" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; }
   .foto {
-    width: 90%; }
+    width: 100%; }
   .foto1 {
-    width: 40%; }
-  .foto2 {
     width: 60%; }
+  .foto2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-items: center; }
   .contenedorPadreMainEquipo {
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(25, auto);
-    grid-template-areas: "jugador1" "jugador2" "jugador3" "jugador4" "jugador5" "jugador6" "jugador7" "jugador8" "jugador9" "jugador10" "jugador11" "jugador12" "jugador13" "jugador14" "jugador15" "jugador16" "jugador17" "jugador18" "jugador19" "jugador20" "jugador21" "jugador22" "jugador23" "jugador24" "jugador25"; }
+    grid-template-rows: repeat(26, auto);
+    grid-template-areas: "tituloEquipo" "jugador1" "jugador2" "jugador3" "jugador4" "jugador5" "jugador6" "jugador7" "jugador8" "jugador9" "jugador10" "jugador11" "jugador12" "jugador13" "jugador14" "jugador15" "jugador16" "jugador17" "jugador18" "jugador19" "jugador20" "jugador21" "jugador22" "jugador23" "jugador24" "jugador25"; }
   .contenedorPadreMainTitulos {
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(13, auto);
-    grid-template-areas: "titulo1" "titulo2" "titulo3" "titulo4" "titulo5" "titulo6" "titulo7" "titulo8" "titulo9" "titulo10" "titulo11" "titulo12" "titulo13"; }
-  .contenedorPadreMainTienda {
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(12, auto);
-    grid-template-areas: "camiseta1" "pantalon1" "medias1" "camiseta2" "pantalon2" "medias2" "camiseta3" "pantalon3" "medias3" "camiseta4" "pantalon4" "medias4"; }
+    grid-template-rows: repeat(14, auto);
+    grid-template-areas: "tituloTitulos" "titulo1" "titulo2" "titulo3" "titulo4" "titulo5" "titulo6" "titulo7" "titulo8" "titulo9" "titulo10" "titulo11" "titulo12" "titulo13"; }
   .contenedorHijoHeader {
     flex-direction: column; }
   .menu {
@@ -173,31 +243,21 @@ footer .logo {
   .comentarios {
     width: 100%; } }
 
-@media screen and (min-width: 576px) and (max-width: 1150px) {
-  .contenedorPadreMain {
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(8, auto);
-    grid-template-areas: "titulo" "noticia0" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; }
+@media screen and (min-width: 577px) and (max-width: 1150px) {
   .contenedorPadreMainEquipo {
-    grid-template-rows: repeat(13, auto);
+    grid-template-rows: repeat(14, auto);
     grid-template-columns: repeat(2, auto);
-    grid-template-areas: "jugador1 jugador2" "jugador3 jugador4" "jugador5 jugador6" "jugador7 jugador8" "jugador9 jugador10" "jugador11 jugador12" "jugador13 jugador14" "jugador15 jugador16" "jugador17 jugador18" "jugador19 jugador20" "jugador21 jugador22" "jugador23 jugador24" "jugador25 jugador25"; }
+    grid-template-areas: "tituloEquipo tituloEquipo" "jugador1 jugador2" "jugador3 jugador4" "jugador5 jugador6" "jugador7 jugador8" "jugador9 jugador10" "jugador11 jugador12" "jugador13 jugador14" "jugador15 jugador16" "jugador17 jugador18" "jugador19 jugador20" "jugador21 jugador22" "jugador23 jugador24" "jugador25 jugador25"; }
   .foto {
+    width: 100%; }
+  .foto1 {
     width: 50%; }
   .contenedorPadreMainTitulos {
-    grid-template-rows: repeat(7, auto);
-    grid-template-columns: repeat(2, auto);
-    grid-template-areas: "titulo1 titulo2" "titulo3 titulo4" "titulo5 titulo6" "titulo7 titulo8" "titulo9 titulo10" "titulo11 titulo12" "titulo13 titulo13"; }
-  .contenedorPadreMainTienda {
-    grid-template-rows: repeat(12, auto);
-    grid-template-columns: repeat(1, auto);
-    grid-template-areas: "camiseta1" "pantalon1" "medias1" "camiseta2" "pantalon2" "medias2" "camiseta3" "pantalon3" "medias3" "camiseta4" "pantalon4" "medias4"; } }
-
-@media screen and (max-width: 1550px) {
-  .contenedorPadreMain {
-    grid-template-columns: auto;
     grid-template-rows: repeat(8, auto);
-    grid-template-areas: "titulo" "noticia0" "noticia1" "video" "calendario" "noticia2" "noticia3" "noticia4"; } }
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "tituloTitulos tituloTitulos" "titulo1 titulo2" "titulo3 titulo4" "titulo5 titulo6" "titulo7 titulo8" "titulo9 titulo10" "titulo11 titulo12" "titulo13 titulo13"; }
+  .comentarios {
+    width: 100%; } }
 
 body {
   text-align: center;

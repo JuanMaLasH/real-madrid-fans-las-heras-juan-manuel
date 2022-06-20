@@ -1,30 +1,21 @@
 @media screen and (max-width: 576px) {
-    .contenedorPadreMain{
-        grid-template-columns: auto;
-        grid-template-rows: repeat(8, auto);
-        grid-template-areas: 
-        "titulo"
-        "noticia0"
-        "noticia1"
-        "video"
-        "calendario"
-        "noticia2"
-        "noticia3"
-        "noticia4";
-    }
     .foto{
-        width: 90%;
+        width: 100%;
     }
     .foto1{
-        width: 40%;
+        width:60%;
     }
     .foto2{
         width: 60%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
     }
     .contenedorPadreMainEquipo{
         grid-template-columns:repeat(1, auto);
-        grid-template-rows: repeat(25, auto);
+        grid-template-rows: repeat(26, auto);
         grid-template-areas:
+        "tituloEquipo"
         "jugador1"
         "jugador2"
         "jugador3"
@@ -53,8 +44,9 @@
     }
     .contenedorPadreMainTitulos{
         grid-template-columns: repeat(1, auto); 
-        grid-template-rows: repeat(13, auto);
+        grid-template-rows: repeat(14, auto);
         grid-template-areas:
+        "tituloTitulos"
         "titulo1"
         "titulo2"
         "titulo3"
@@ -69,23 +61,6 @@
         "titulo12"
         "titulo13"; 
     }    
-    .contenedorPadreMainTienda{
-        grid-template-columns: repeat(1, auto);
-        grid-template-rows: repeat(12, auto);
-        grid-template-areas:
-        "camiseta1"
-        "pantalon1"
-        "medias1"
-        "camiseta2"
-        "pantalon2"
-        "medias2"
-        "camiseta3"
-        "pantalon3"
-        "medias3"
-        "camiseta4"
-        "pantalon4"
-        "medias4";
-    }
     .contenedorHijoHeader{
         flex-direction: column;
     }
@@ -97,25 +72,12 @@
     }
 }
 
-
-@media screen and (min-width: 576px) and (max-width:1150px){
-    .contenedorPadreMain{
-        grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(8, auto);
-        grid-template-areas: 
-        "titulo"
-        "noticia0"
-        "noticia1"
-        "video"
-        "calendario"
-        "noticia2"
-        "noticia3"
-        "noticia4";
-    }
+@media screen and (min-width: 577px) and (max-width:1150px){
     .contenedorPadreMainEquipo{
-        grid-template-rows: repeat(13, auto);
+        grid-template-rows: repeat(14, auto);
         grid-template-columns:repeat(2, auto);
         grid-template-areas:
+        "tituloEquipo tituloEquipo"
         "jugador1 jugador2"
         "jugador3 jugador4"
         "jugador5 jugador6"
@@ -131,12 +93,16 @@
         "jugador25 jugador25";
     }   
     .foto{
+        width: 100%;
+    }
+    .foto1{
         width: 50%;
     }
     .contenedorPadreMainTitulos{
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         grid-template-columns: repeat(2, auto);  
         grid-template-areas:
+        "tituloTitulos tituloTitulos"
         "titulo1 titulo2"
         "titulo3 titulo4"
         "titulo5 titulo6"
@@ -144,39 +110,8 @@
         "titulo9 titulo10"
         "titulo11 titulo12"
         "titulo13 titulo13";
-    }    
-    .contenedorPadreMainTienda{
-        grid-template-rows: repeat(12, auto);
-        grid-template-columns: repeat(1, auto);
-        grid-template-areas:
-        "camiseta1"
-        "pantalon1"
-        "medias1"
-        "camiseta2"
-        "pantalon2"
-        "medias2"
-        "camiseta3"
-        "pantalon3"
-        "medias3"
-        "camiseta4"
-        "pantalon4"
-        "medias4";
-    }
-}
-
-
-@media screen and (max-width: 1550px){
-    .contenedorPadreMain{
-        grid-template-columns: auto;
-        grid-template-rows: repeat(8, auto);
-        grid-template-areas: 
-        "titulo"
-        "noticia0"
-        "noticia1"
-        "video"
-        "calendario"
-        "noticia2"
-        "noticia3"
-        "noticia4";
-    }
+    }  
+    .comentarios{
+        width: 100%;
+    }  
 }

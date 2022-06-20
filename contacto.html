@@ -52,44 +52,55 @@
       <h1 class="text-center">
         Ayudanos a mejorar
       </h1>
-          <form>
-              <fieldset>
-                  <legend><strong>DATOS PERSONALES</strong></legend>
-                  <div>
-                    <label for="gender">Género</label>
-                     <br>
-                     <input type="radio" name="gender" value="Masculino">Masculino
-                    <br>
-                    <input type="radio" name="gender" value="Femenino">Femenino
-                    <br>
-                    <input type="radio" name="gender" value="Indefinido">Indefinido
-                  </div>
-                  <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" placeholder="Juan" class="comentarios">
-                </div>
-                <div>
-                  <label for="apellido">Apellido</label>
-                  <input type="text" name="apellido" placeholder="Perez" class="comentarios">
-                </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input type="email" name="email" placeholder="juanperez@gmail.com" required class="comentarios">
-                </div>
-                <div>
-                  <label for="password">Contraseña</label>
-                  <input type="password" name="password" placeholder="••••••" class="comentarios">
-                </div>
-                <div>
-                  <label for="comentarios">Dejar un Mensaje</label><br>
-                  <textarea name="comentarios" id="message" cols="30" rows="10" class="comentarios"></textarea>
-                </div>
-                <div>
-                  <button>Enviar Formulario</button>
-                  <input type="reset">
-                </div>  
-            </fieldset>
-          </form>
+      <form class="row p-3">
+        <div class="col-md-6 p-3">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" placeholder="Juan">
+        </div>
+        <div class="col-md-6 p-3">
+          <label for="inputSurname" class="form-label">Apellido</label>
+          <input type="text" class="form-control" placeholder="Perez">
+        </div>
+        <div class="col-md-6 p-3">
+          <label for="inputEmail4" class="form-label">Mail</label>
+          <input type="email" class="form-control" placeholder="JuanPerez@hotmail.com">
+        </div>
+        <div class="col-md-6 p-3">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" placeholder="••••••">
+        </div>
+        <div class="col-12 p-3">
+          <label for="inputAddress" class="form-label">Nombre de usuario</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6 p-3">
+          <label for="inputCountry" class="form-label">País</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-4 p-3">
+          <label for="inputGender" class="form-label">Género</label>
+          <select class="form-select">
+            <option selected>Selecciona</option>
+            <option>Hombre</option>
+            <option>Mujer</option>
+            <option>Indeterminado</option>
+          </select>
+        </div>
+        <div class="col-md-2 p-3">
+          <label for="inputZip" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12 p-3">
+          <label for="comentarios">Dejar un Mensaje</label><br>
+          <textarea name="comentarios" id="message" cols="100" rows="10" class="comentarios"></textarea>
+        </div>
+        <div class="col-6 p-3">
+          <button type="submit" class="btn btn-secondary">Enviar</button>
+        </div>
+        <div class="col-6 p-3">
+          <input type="reset" class="btn btn-secondary">
+        </div>  
+      </form>
   </main>
   <Footer class="contenedorPadreFooter footer">
     <nav class= "menuFooter">
