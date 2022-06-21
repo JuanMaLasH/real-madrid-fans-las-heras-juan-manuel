@@ -200,6 +200,7 @@ footer .contenedorHijoFooter {
 
 footer .menuFooter {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 1rem;
   padding: 1rem; }
